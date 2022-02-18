@@ -7,7 +7,7 @@ package square
 // CalcSquare(10.0, SidesTriangle)
 // CalcSquare(10.0, SidesSquare)
 // CalcSquare(10.0, SidesCircle)
-//go ahead MFA
+//go ahead MFA2
 
 func CalcSquare(sideLen float64, sidesNum #yourTypeNameHere#) float64 {
 }
