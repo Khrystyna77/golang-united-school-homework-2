@@ -24,7 +24,7 @@ var S float64
 func CalcSquare(sideLen float64, sidesNum myint) float64 {
 
 	if sidesNum == SidesTriangle {
-		S = sideLen * 2
+		S = math.Sqrt(3) / 4 * math.Pow(sideLen, 2)
 
 	} else if sidesNum == SidesSquare {
 
