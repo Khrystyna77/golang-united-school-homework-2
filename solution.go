@@ -1,4 +1,4 @@
-package solution
+package square
 
 import (
 	"math"
@@ -18,9 +18,10 @@ const SidesTriangle myint = 3
 const SidesSquare myint = 4
 const SidesCircle myint = 0
 
+var Pi64 float64 = math.Pi
+var S float64
+
 func CalcSquare(sideLen float64, sidesNum myint) float64 {
-	var Pi64 float64 = math.Pi
-	var S float64
 
 	if sidesNum == SidesTriangle {
 		S = sideLen * 2
